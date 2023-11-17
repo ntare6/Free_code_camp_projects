@@ -1,0 +1,112 @@
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    text-align: center;
+    /* centering menu element within the body */
+    margin-right: auto;
+    margin-left: auto;
+    /* separate content and menu */
+    /* use the same padding for all */
+    padding: 20px;
+    max-width: 500px;
+    
+   
+}
+hr {
+    background-color: brown;
+    height: 2px;
+    /* boder-color to avoid edges have their own color */
+    border-color: brown;
+    /* border width for all hr is 1px */
+}
+  
+
+h1,h2 {
+    /* used a fallback value */
+    font-family: Impact;
+}
+
+h1{
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+    
+}
+
+
+
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    
+
+}
+
+.dessert,.flavor {
+    /* used width properties to place them next to each other inline only take width */
+   
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+   
+}
+
+.item p {
+    display: inline-block;
+    /* set p elements nested under class item */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.item {
+    display: flex;
+}
+
+.bottom-line {
+    /* adds space between footer and */
+    margin-top: 25px;
+}
+
+/*FOOTER */
+footer {
+    font-size: 14px;
+}
+a {
+    color: black;
+}
+
+/* for a visited website */
+a:visited {
+    color: grey;
+}
+/* mouse hovering over the link */
+a:hover {
+    color: aqua;
+}
+/* being clicked */
+a:active {
+    color: blue;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
